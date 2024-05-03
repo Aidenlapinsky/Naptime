@@ -1,51 +1,113 @@
 body {
-	background-color: #f7f7f7;
-	font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
 }
 
 header {
-	background-color: #4567b7;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 header h1 {
-	margin: 0;
-	color: #6495ed;
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  margin: 0;
+  font-size: 24px;
 }
 
 main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 section {
-	background-color: #8bc34a;
-	padding: 20px;
-	margin-bottom: 20px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 80%;
 }
 
-h2 {
-	margin-top: 0;
-	color: #4567b7;
+section h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #4CAF50;
 }
 
-footer {
-	background-color: #4567b7;
-	color: #fff;
-	padding: 10px;
-	text-align: center;
-	clear: both;
+section p {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #333;
 }
 
-footer p {
-	font-size: 12px;
-	color: #6495ed;
+section img {
+  width: 100%;
+  border-radius: 5px;
 }
 
-section:nth-child(1) {
-	background-image: url("https://i.imgur.com
+#timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#timer button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#timer button:hover {
+  background-color: #3e8e41;
+}
+
+#timer button:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+#timer span {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#chloroform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#chloroform img {
+  width: 50%;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#chloroform img {
+  animation: spin 10s linear infinite;
+}
