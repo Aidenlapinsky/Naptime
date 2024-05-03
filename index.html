@@ -1,54 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Naptime - Sleep Like You Mean It</title>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Naptime</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<h1>Naptime</h1>
-		<p>Where sleep is our top priority</p>
-	</header>
-	<main>
-		<section id="intro">
-			<h2>Welcome to Naptime</h2>
-			<p>Take a break and catch some Z's with us.</p>
-			<button id="snooze-button">Snooze Button</button>
-		</section>
-		<section id="methods">
-			<h2>Our Methods</h2>
-			<p>We use only the most effective sleep-inducing techniques, including our signature Chloroform Cocktail (patent pending). Don't worry, it's completely safe... we think.</p>
-			<div class="method">
-				<h3>1. Chloroform Cocktail</h3>
-				<p>Our signature blend of chloroform and aromatherapy oils will have you snoozing in no time.</p>
-			</div>
-			<div class="method">
-				<h3>2. Sleep Masks</h3>
-				<p>Our custom-designed sleep masks will block out light and distractions, helping you to drift off into a peaceful slumber.</p>
-			</div>
-			<div class="method">
-			$@$v=v1.16$@$<h3>3. White Noise</h3>
-				<p>Our white noise machines will drown out any background noise, allowing you to focus on the sound of your own breathing.</p>
-			</div>
-		</section>
-		<section id="sleep-timer">
-			<h2>Sleep Timer</h2>
-			<p>Set a timer for your nap and let us do the rest.</p>
-			<input type="number" id="sleep-time" min="1" max="60" value="10">
-			<button id="start-timer">Start Timer</button>
-			<div id="timer">
-				<p id="time-left">10:00</p>
-				<p id="timer-message">Time until nap...</p>
-			</div>
-		</section>
-		<section id="contact">
-			<h2>Catch Some Z's with Us</h2>
-			<p>Ready to take a nap? Call us at 555-123-NAPZ (6279) to schedule your appointment today!</p>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2023 Naptime. All rights reserved. (Don't worry, we won't sue you if you fall asleep on our website)</p>
-	</footer>
-	<script src="script.js"></script>
+  <header>
+    <h1>Naptime</h1>
+    <p>The ultimate sleep experience</p>
+  </header>
+  <main>
+    <section id="intro">
+      <h2>Welcome to Naptime</h2>
+      <p>Take a break and catch some Z's with us.</p>
+      <button id="start-button">Start Your Nap</button>
+      <p>Or call us at <a href="tel:555-123-NAPZ">555-123-NAPZ</a></p>
+    </section>
+    <section id="timer">
+      <h2>Naptime Timer</h2>
+      <button id="start-button">Start</button>
+      <button id="stop-button" disabled>Stop</button>
+      <button id="reset-button" disabled>Reset</button>
+      <span id="time-left">1:00</span>
+    </section>
+    <section id="chloroform">
+      <h2>Chloroform Cocktail</h$@$v=v1.16$@$2>
+      <p>Our signature Chloroform Cocktail will put you to sleep in no time. Just inhale deeply and let the sweet aroma of chloroform take you away.</p>
+      <img src="chloroform.png" alt="Chloroform Cocktail">
+    </section>
+  </main>
+  <footer>
+    <p>© 2023 Naptime. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
