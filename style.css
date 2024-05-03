@@ -53,39 +53,6 @@ section img {
   border-radius: 5px;
 }
 
-#timer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-}
-
-#timer button {
-  margin: 10px;
-  padding: 10px 20px;
-  font-size: 18px;
-  border-radius: 5px;
-  border: none;
-  background-color: #4CAF50;
-  color: #fff;
-  cursor: pointer;
-}
-
-#timer button:hover {
-  background-color: #3e8e41;
-}
-
-#timer button:disabled {
-  background-color: #ccc;
-  color: #999;
-  cursor: not-allowed;
-}
-
-#timer span {
-  font-size: 36px;
-  font-weight: bold;
-}
-
 #chloroform {
   display: flex;
   flex-direction: column;
