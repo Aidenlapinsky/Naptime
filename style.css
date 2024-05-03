@@ -48,33 +48,4 @@ footer p {
 }
 
 section:nth-child(1) {
-	background-image: url("https://i.imgur.com/QbQrJlS.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	color: #fff;
-	padding: 40px;
-	text-align: center;
-}
-
-section:nth-child(1) h2 {
-	color: #fff;
-	font-size: 36px;
-	margin-bottom: 20px;
-}
-
-section:nth-child(1) p {
-	color: #fff;
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-
-section:nth-child(2) {
-	background-color: #6495ed;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
-}
-
-section:nth-child(2) h2 {
-	color: #fff;
+	background-image: url("https://i.imgur.com
