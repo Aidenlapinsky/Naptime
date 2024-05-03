@@ -1,10 +1,10 @@
 body {
-	background-color: #f5f5f5;
+	background-color: #f7f7f7;
 	font-family: Arial, sans-serif;
 }
 
 header {
-	background-color: #333;
+	background-color: #4567b7;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
@@ -12,6 +12,7 @@ header {
 
 header h1 {
 	margin: 0;
+	color: #6495ed;
 }
 
 main {
@@ -22,7 +23,7 @@ main {
 }
 
 section {
-	background-color: #fff;
+	background-color: #8bc34a;
 	padding: 20px;
 	margin-bottom: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -30,12 +31,50 @@ section {
 
 h2 {
 	margin-top: 0;
+	color: #4567b7;
 }
 
 footer {
-	background-color: #333;
+	background-color: #4567b7;
 	color: #fff;
 	padding: 10px;
 	text-align: center;
 	clear: both;
 }
+
+footer p {
+	font-size: 12px;
+	color: #6495ed;
+}
+
+section:nth-child(1) {
+	background-image: url("https://i.imgur.com/QbQrJlS.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	padding: 40px;
+	text-align: center;
+}
+
+section:nth-child(1) h2 {
+	color: #fff;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+section:nth-child(1) p {
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+section:nth-child(2) {
+	background-color: #6495ed;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+section:nth-child(2) h2 {
+	color: #fff;
